@@ -25,13 +25,13 @@ public class Projectile : MonoBehaviour
         transform.Translate(Vector3.forward * velocity * Time.deltaTime);
     }
 
-    public void SetDamage(float _damage)
+    public void SetDamage(float d)
     {
-        this.damage = _damage;
+        this.damage = d;
     }
-    public void SetVelocity(float _v)
+    public void SetVelocity(float v)
     {
-        velocity = _v;
+        velocity = v;
     }
     public void SetLifeTime(float t)
     {

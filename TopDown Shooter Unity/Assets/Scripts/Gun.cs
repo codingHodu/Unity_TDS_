@@ -5,13 +5,11 @@ using NaughtyAttributes;
 public class Gun : MonoBehaviour
 {
     public Transform muzzle;
-
     public Projectile bulletPrefab;
 
-
     public float timeBetFire = 1f;
-    public float damage = 1f;
 
+    public float damage = 1f;
     public float lifeTime = 1f;
     public float velocity = 1f;
 
